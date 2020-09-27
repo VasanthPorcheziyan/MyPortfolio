@@ -120,7 +120,7 @@ header .social li a {
 }
 
 header .social li a:hover {
-    color: #e6cd1b;
+    color: #e3c90c;
 }
 
 
@@ -146,7 +146,7 @@ header .scrolldown a {
 }
 
 header .scrolldown a:hover {
-    color: #e6cd1b;
+    color: #a1cedf;
 }
 
 
@@ -225,7 +225,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: #e6cd1b;
+    color: #e3c90c;
 }
 
 
