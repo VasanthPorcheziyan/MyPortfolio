@@ -419,43 +419,49 @@ ul#nav li.current a {
     border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.Per60 {
     width: 60%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
+    -moz-animation: Per60 2s ease;
+    -webkit-animation: Per60 2s ease;
 }
 
-.illustrator {
+.Per55 {
     width: 55%;
-    -moz-animation: illustrator 2s ease;
-    -webkit-animation: illustrator 2s ease;
+    -moz-animation: Per55 2s ease;
+    -webkit-animation: Per55 2s ease;
 }
 
-.wordpress {
+.Per50 {
     width: 50%;
-    -moz-animation: wordpress 2s ease;
-    -webkit-animation: wordpress 2s ease;
+    -moz-animation: Per50 2s ease;
+    -webkit-animation: Per50 2s ease;
 }
 
-.css {
+.Per90 {
     width: 90%;
-    -moz-animation: css 2s ease;
-    -webkit-animation: css 2s ease;
+    -moz-animation: Per90 2s ease;
+    -webkit-animation: Per90 2s ease;
 }
 
-.html5 {
+.Per80 {
     width: 80%;
-    -moz-animation: html5 2s ease;
-    -webkit-animation: html5 2s ease;
+    -moz-animation: Per80 2s ease;
+    -webkit-animation: Per80 2s ease;
 }
 
-.jquery {
-    width: 50%;
-    -moz-animation: jquery 2s ease;
-    -webkit-animation: jquery 2s ease;
+.Per85 {
+    width: 85%;
+    -moz-animation: Per85 2s ease;
+    -webkit-animation: Per85 2s ease;
 }
 
-@-moz-keyframes photoshop {
+.Per70 {
+    width: 70%;
+    -moz-animation: Per70 2s ease;
+    -webkit-animation: Per70 2s ease;
+}
+
+@-moz-keyframes Per60 {
     0% {
         width: 0px;
     }
@@ -464,7 +470,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes illustrator {
+@-moz-keyframes Per55 {
     0% {
         width: 0px;
     }
@@ -473,7 +479,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes wordpress {
+@-moz-keyframes Per50 {
     0% {
         width: 0px;
     }
@@ -482,7 +488,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes css {
+@-moz-keyframes Per90 {
     0% {
         width: 0px;
     }
@@ -491,7 +497,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes html5 {
+@-moz-keyframes Per80 {
     0% {
         width: 0px;
     }
@@ -500,16 +506,16 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes jquery {
+@-moz-keyframes Per85 {
     0% {
         width: 0px;
     }
     100% {
-        width: 50%;
+        width: 85%;
     }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes Per60 {
     0% {
         width: 0px;
     }
@@ -518,7 +524,7 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes illustrator {
+@-webkit-keyframes Per55 {
     0% {
         width: 0px;
     }
@@ -527,7 +533,7 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes wordpress {
+@-webkit-keyframes Per50 {
     0% {
         width: 0px;
     }
@@ -536,7 +542,7 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes css {
+@-webkit-keyframes Per90 {
     0% {
         width: 0px;
     }
@@ -545,7 +551,7 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes html5 {
+@-webkit-keyframes Per80 {
     0% {
         width: 0px;
     }
@@ -554,12 +560,21 @@ ul#nav li.current a {
     }
 }
 
-@-webkit-keyframes jquery {
+@-webkit-keyframes Per85 {
     0% {
         width: 0px;
     }
     100% {
-        width: 50%;
+        width: 85%;
+    }
+}
+
+@-webkit-keyframes Per70 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
     }
 }
 
